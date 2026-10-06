@@ -1,0 +1,26 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# TensorBoard & training outputs
+events.out.tfevents.*
+runs/
+*.rar
+*.zip
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Large model weights (opsional, hapus tanda komentar jika ingin dikecualikan)
+# *.pt
+# *.torchscript
